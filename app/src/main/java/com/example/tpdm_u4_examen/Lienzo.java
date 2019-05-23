@@ -189,7 +189,7 @@ public class Lienzo extends View {
     //hora corecta 8:15
     public void nivel5(Canvas canvas){
         nivelTxt = "Nivel 5";
-        frase = "A las 8:15 es la hora de la comida ";
+        frase = "A las 8:15 empiezan pokemon ";
         Paint p=new Paint();
         Bitmap imgHora1 = BitmapFactory.decodeResource(context.getResources(),R.drawable.ochoquince);
         float horaX = 150;
@@ -209,7 +209,7 @@ public class Lienzo extends View {
     //hora corecta 2;27
     public void nivel6(Canvas canvas){
         nivelTxt = "Nivel 6";
-        frase = "A las 2:27 es la hora de la comida ";
+        frase = "A las 2:27 es la hora que sales de la escuela ";
         Paint p=new Paint();
         Bitmap imgHora1 = BitmapFactory.decodeResource(context.getResources(),R.drawable.unatcinco);
         float horaX = 150;
