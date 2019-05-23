@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aprende la Hora Jugando
+         con Nosotros!"
+        android:textColor="#FA5882"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:id="@+id/titulo"/>
+
+    <ImageView
+        android:layout_width="259dp"
+        android:layout_height="255dp"
+        android:layout_below="@id/titulo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:src="@drawable/relojcaricatura"
+        android:id="@+id/relojpantalla"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relojpantalla"
+        android:text="INICIAR"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:background="#A9E2F3"
+        android:id="@+id/btnJugar"/>
+
+</RelativeLayout>
